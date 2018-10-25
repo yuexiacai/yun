@@ -1,0 +1,172 @@
+Message-ID: <35809087bbb1f9df1d6b5ca628363e8f@fee.com>
+Date: Wed, 24 Oct 2018 15:17:13 +0800
+Subject: =?UTF-8?Q?=E6=9D=A5=E8=87=AA?= Feehi CMS
+ =?UTF-8?Q?=E5=89=8D=E5=8F=B0=E7=9A=84=E6=96=B0?=
+ =?UTF-8?Q?=E6=97=A5=E5=BF=97=E6=B6=88=E6=81=AF?=
+From: Feehi CMS robot  <admin@feehi.com>
+To: admin@feehi.com, liufee@126.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+2018-10-24 15:17:13
+[127.0.0.1][-][5r1k04lvauk34rh90mh57gm0c5][error][yii\web\HttpException:4=
+04]
+exception 'yii\web\NotFoundHttpException' with message
+'=E9=A1=B5=E9=9D=A2=E6=9C=AA=E6=89=BE=E5=88=B0=E3=80=82' in
+C:\phpStudy\PHPTutorial\WWW\Feehi_CMS\vendor\yiisoft\yii2\web\Request.php:=
+284
+Stack trace:
+#0
+C:\phpStudy\PHPTutorial\WWW\Feehi_CMS\vendor\yiisoft\yii2\web\Application.=
+php(82):
+yii\web\Request->resolve()
+#1
+C:\phpStudy\PHPTutorial\WWW\Feehi_CMS\vendor\yiisoft\yii2\base\Application=
+.php(386):
+yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\phpStudy\PHPTutorial\WWW\Feehi_CMS\frontend\web\index.php(17):
+yii\base\Application->run()
+#3 {main}
+2018-10-24 15:17:12
+[127.0.0.1][-][5r1k04lvauk34rh90mh57gm0c5][info][application] $_GET =3D
+[]
+
+$_POST =3D []
+
+$_FILES =3D []
+
+$_COOKIE =3D [
+    'PHPSESSID' =3D> '5r1k04lvauk34rh90mh57gm0c5'
+    '_csrf_install' =3D>
+'4639063d5619d6e191f36ac0364ea19f7771b878bd4eabc1d783d9fdf19112dfa:2:{i:0;=
+s:13:\"_csrf_install\";i:1;s:32:\"zRQmg8uWUHqw1mf9PZhgzFyPHIvEJmbt\";}'
+    '_csrf' =3D>
+'0bb3cbf0b49cb7c8b5ee0b1597bcec663a7f962b4f83b7434e370b8e976a6525a:2:{i:0;=
+s:5:\"_csrf\";i:1;s:32:\"H779I-FQneE7fk0JtUPdKdteaH7AF_8H\";}'
+    'BACKEND_FEEHICMS' =3D> 'ott8f7e77mtmub60nb3n4kar21'
+    '_csrf_backend' =3D>
+'8940492d5a3dfef77f2456352f60e005a2ca2168d24fec14f6bb20a10047e20da:2:{i:0;s=
+:13:\"_csrf_backend\";i:1;s:32:\"dkiUwW3r0iAYL_vi_6zrCgNgYhSDlvzv\";}'
+]
+
+$_SESSION =3D [
+    '__flash' =3D> []
+]
+
+$_SERVER =3D [
+    'ALLUSERSPROFILE' =3D> 'C:\\ProgramData'
+    'APPDATA' =3D> 'C:\\Users\\Administrator\\AppData\\Roaming'
+    'CommonProgramFiles' =3D> 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' =3D> 'C:\\Program Files (x86)\\Common
+Files'
+    'CommonProgramW6432' =3D> 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' =3D> 'SKY-20180307VXU'
+    'ComSpec' =3D> 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' =3D> 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' =3D> 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' =3D> 'Default'
+    'HOMEDRIVE' =3D> 'C:'
+    'HOMEPATH' =3D> '\\Users\\Administrator'
+    'LOCALAPPDATA' =3D> 'C:\\Users\\Administrator\\AppData\\Local'
+    'LOGONSERVER' =3D> '\\\\SKY-20180307VXU'
+    'NUMBER_OF_PROCESSORS' =3D> '4'
+    'OneDrive' =3D> 'C:\\Users\\Administrator\\OneDrive'
+    'OS' =3D> 'Windows_NT'
+    'Path' =3D>
+'C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\=
+\System32\\WindowsPowerShell\\v1.0\\;C:\\phpStudy\\PHPTutorial\\tools\\c=
+omposer;C:\\phpStudy\\PHPTutorial\\php\\php-5.6.27-nts;C:\\Users\\Admini=
+strator\\.dnx\\bin;C:\\Program
+Files\\Microsoft DNX\\Dnvm\\;C:\\Program Files\\Microsoft SQL
+Server\\120\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL
+Server\\130\\Tools\\Binn\\;C:\\Program Files\\Git\\cmd;C:\\Program
+Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program
+Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program
+Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files
+(x86)\\Microsoft SQL
+Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files
+(x86)\\Microsoft Visual Studio
+9.0\\Common7\\IDE\\PrivateAssemblies\\;C:\\Program Files
+(x86)\\Microsoft SQL
+Server\\100\\DTS\\Binn\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Users\\Admi=
+nistrator\\AppData\\Local\\Microsoft\\WindowsApps'
+    'PATHEXT' =3D>
+'.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PROCESSOR_ARCHITECTURE' =3D> 'x86'
+    'PROCESSOR_ARCHITEW6432' =3D> 'AMD64'
+    'PROCESSOR_IDENTIFIER' =3D> 'Intel64 Family 6 Model 60 Stepping 3,
+GenuineIntel'
+    'PROCESSOR_LEVEL' =3D> '6'
+    'PROCESSOR_REVISION' =3D> '3c03'
+    'ProgramData' =3D> 'C:\\ProgramData'
+    'ProgramFiles' =3D> 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' =3D> 'C:\\Program Files (x86)'
+    'ProgramW6432' =3D> 'C:\\Program Files'
+    'PROMPT' =3D> '$P$G'
+    'PSModulePath' =3D>
+'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' =3D> 'C:\\Users\\Public'
+    'SystemDrive' =3D> 'C:'
+    'SystemRoot' =3D> 'C:\\WINDOWS'
+    'TEMP' =3D> 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'TMP' =3D> 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' =3D> 'SKY-20180307VXU'
+    'USERDOMAIN_ROAMINGPROFILE' =3D> 'SKY-20180307VXU'
+    'USERNAME' =3D> 'Administrator'
+    'USERPROFILE' =3D> 'C:\\Users\\Administrator'
+    'VBOX_MSI_INSTALL_PATH' =3D> 'C:\\Program
+Files\\Oracle\\VirtualBox\\'
+    'VS100COMNTOOLS' =3D> 'C:\\Program Files (x86)\\Microsoft Visual
+Studio 10.0\\Common7\\Tools\\'
+    'VS140COMNTOOLS' =3D> 'C:\\Program Files (x86)\\Microsoft Visual
+Studio 14.0\\Common7\\Tools\\'
+    'WEBKIT_IGNORE_SSL_ERRORS' =3D> '1'
+    'windir' =3D> 'C:\\WINDOWS'
+    'HTTP_COOKIE' =3D> 'PHPSESSID=3D5r1k04lvauk34rh90mh57gm0c5;
+_csrf_install=3D4639063d5619d6e191f36ac0364ea19f7771b878bd4eabc1d783d9fdf=
+19112dfa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_install%22%3Bi%3A1%3Bs%3A32%=
+3A%22zRQmg8uWUHqw1mf9PZhgzFyPHIvEJmbt%22%3B%7D;
+_csrf=3D0bb3cbf0b49cb7c8b5ee0b1597bcec663a7f962b4f83b7434e370b8e976a6525a%3=
+A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22H779I-FQneE7fk=
+0JtUPdKdteaH7AF_8H%22%3B%7D;
+BACKEND_FEEHICMS=3Dott8f7e77mtmub60nb3n4kar21;
+_csrf_backend=3D8940492d5a3dfef77f2456352f60e005a2ca2168d24fec14f6bb20a1=
+0047e20da%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf_backend%22%3Bi%3A1%3Bs%3A32=
+%3A%22dkiUwW3r0iAYL_vi_6zrCgNgYhSDlvzv%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.9'
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate'
+    'HTTP_USER_AGENT' =3D> 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100
+Safari/537.36'
+    'HTTP_CACHE_CONTROL' =3D> 'no-cache'
+    'HTTP_CONNECTION' =3D> 'keep-alive'
+    'HTTP_HOST' =3D> 'fee.com:8081'
+    'REDIRECT_STATUS' =3D> '200'
+    'SERVER_NAME' =3D> 'fee.com'
+    'SERVER_PORT' =3D> '8081'
+    'SERVER_ADDR' =3D> '127.0.0.1'
+    'REMOTE_PORT' =3D> '8201'
+    'REMOTE_ADDR' =3D> '127.0.0.1'
+    'SERVER_SOFTWARE' =3D> 'nginx/1.11.5'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'DOCUMENT_ROOT' =3D>
+'C:\\phpStudy\\PHPTutorial\\WWW\\Feehi_CMS\\frontend\\web'
+    'DOCUMENT_URI' =3D> '/index.php'
+    'REQUEST_URI' =3D> '/toastr.js.map'
+    'SCRIPT_NAME' =3D> '/index.php'
+    'CONTENT_LENGTH' =3D> ''
+    'CONTENT_TYPE' =3D> ''
+    'REQUEST_METHOD' =3D> 'GET'
+    'QUERY_STRING' =3D> ''
+    'PATH_TRANSLATED' =3D>
+'C:\\phpStudy\\PHPTutorial\\WWW\\Feehi_CMS\\frontend\\web'
+    'PATH_INFO' =3D> ''
+    'SCRIPT_FILENAME' =3D>
+'C:\\phpStudy\\PHPTutorial\\WWW\\Feehi_CMS\\frontend\\web/index.php'
+    'FCGI_ROLE' =3D> 'RESPONDER'
+    'PHP_SELF' =3D> '/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 1540365432.113
+    'REQUEST_TIME' =3D> 1540365432
+]
